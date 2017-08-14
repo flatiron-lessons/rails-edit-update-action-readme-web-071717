@@ -1,0 +1,11 @@
+<p>My Edit</p>
+
+<%= form_tag posts_path do %>
+	<label>Title:</label><br>
+	<%= text_field_tag :'title' %><br>
+
+	<label>Description:</label><br>
+	<%= text_field_tag :'description' %><br>
+
+	<%= submit_tag 'Submit Post' %>
+<% end %>
